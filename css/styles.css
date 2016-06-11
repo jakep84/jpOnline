@@ -228,8 +228,8 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .arrow { background: url(../img/arrow.png) no-repeat center center; width: 21px; height: 10px; margin: -1px auto 0 auto; }
 .logo-1 { width: 60px; height: 100px; background: url(../img/ribbon_2.png); position: absolute; left: 50%; top: 50%; margin-left: -56px; margin-top: -59px; }
 .logo-2 { width: 177px; height: 179px; background: url(../img/meanIconSizedFinal.png); position: absolute; left: 50%; top: 50%; margin-top: -70px; margin-left: -90px; }
-.logo-3 { width: 208px; height: 67px; background: url(../img/bicycles-sml-logo.png); position: absolute; left: 50%; top: 50%; margin-left: -110px; margin-top: -10px; }
-.flex-container { background-color: #f7f7f7; padding: 125px 0 35px; text-align: center; }
+.logo-3 { width: 208px; height: 67px; background: url(../img/); position: absolute; left: 50%; top: 50%; margin-left: -110px; margin-top: -10px; }
+.flex-container { background-color: #f7f7f7; padding: 125px 0 35px; text-align: center; padding-bottom: 11%;}
 .flex-twitter-icon { width: 32px; height: 27px; background: url(../img/twitter-bird.png) no-repeat center center; margin: 0 auto; }
 p.twitter-post { color: #848789; font-size: 24px; font-style: italic; font-weight: 300; margin-bottom: 100px; }
 .left-box-1 { width:50%; float: left; }
@@ -450,4 +450,10 @@ width: 14px;
 
 #work {
     padding-top:40px;
+}
+
+.padMe {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-top:5%;
 }
