@@ -273,7 +273,7 @@ footer p { font-size: 13px; margin: 0; }
 .footer-midcol li a { opacity: 1; }
 .footer-midcol li a:hover { opacity: 0.5; }
 .twitter-icon { background: url(../img/twitter-icon.png); height: 34px; width: 35px; display: block; text-indent: -9999px; }
-.facebook-icon { background: url(../img/facebook-icon.png); height: 34px; width: 35px; display: block; text-indent: -9999px; }
+
 .pintrest-icon { background: url(../img/pintrest-icon.png); height: 34px; width: 35px; display: block; text-indent: -9999px; }
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
 .bounceInLeft, .bounceInRight, .fadeInUp { visibility: visible; }
@@ -438,3 +438,8 @@ width: 14px;
   }
 }
 /*-- /back to top --*/
+.mainContain {
+   
+}
+
+
