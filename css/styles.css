@@ -221,8 +221,8 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .nopadding {margin: 0 !important; }
 .thin-sep { height: 1px; background-color: #d7d7d7; width: 50px; margin: 8% auto 0 auto; }
 .small-featured-img { height: 200px; width: 106%; position: absolute; bottom: 0; margin-left:-4%; }
-.seat-red { background: url(/img/hackhomeSized.jpg) no-repeat center center; background-size: cover; }
-.seat-black { background: url(../img/hackOdinner.jpg) no-repeat center center; background-size: cover; }
+.seat-red { background: url(../img/gahackSized.jpg) no-repeat center center; background-size: cover; }
+.seat-black { background: url(../img/thegarage2CutSized.jpg) no-repeat center center; background-size: cover; }
 .frame-red { background: url(/img/portfolioImages/jQuerySFThumb.png) no-repeat center center; background-size: cover; }
 .section-text p { padding: 0 60px; text-align: justify; }
 .arrow { background: url(../img/arrow.png) no-repeat center center; width: 21px; height: 10px; margin: -1px auto 0 auto;display:hidden; }
