@@ -1,3 +1,13 @@
+// Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDUwcFwsHvkqb_BoynfCdVigm1m4dbbatA",
+    authDomain: "project-167699048494230373.firebaseapp.com",
+    databaseURL: "https://project-167699048494230373.firebaseio.com",
+    storageBucket: "",
+  };
+  firebase.initializeApp(config);
+
+
 //FLEXSLIDER
 $(window).load(function() {
   $('.flexslider').flexslider({
