@@ -180,7 +180,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* ==========================================================================
 Headings
 ========================================================================== */
-h1.chain { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/cog-icon.png) no-repeat top center; padding-top: 75px; }
+h1.chain { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; padding-top: 48px; }
 h2.frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/youstafflogo2Sized.png) no-repeat top center; padding-top: 65px; margin-top: 70px; }
 h2.mech { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/alphalogoSized.png) no-repeat top center; padding-top: 75px; margin-top: 70px; }
 h2.front-frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/beardedAirborneSized.png) no-repeat top center; padding-top: 37%; margin-top: 70px; }
@@ -218,9 +218,9 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .section-3 { background: url(/img/portfolioImages/karmaCloneSized.jpg) no-repeat center center; background-size: cover; height: 600px; position: relative; }
 .section-4 { background: url(../img/portfolioImages/otherStuffCollage.jpg) no-repeat center center; background-size: cover; height: 600px; }
 .section-text { position: relative; height: 600px; }
-.nopadding { padding: 0 !important; margin: 0 !important; }
+.nopadding {margin: 0 !important; }
 .thin-sep { height: 1px; background-color: #d7d7d7; width: 50px; margin: 8% auto 0 auto; }
-.small-featured-img { height: 200px; width: 100%; position: absolute; bottom: 0; }
+.small-featured-img { height: 200px; width: 106%; position: absolute; bottom: 0; margin-left:-6%; }
 .seat-red { background: url(../img/bigScreen.jpg) no-repeat center center; background-size: cover; }
 .seat-black { background: url(../img/hackOdinner.jpg) no-repeat center center; background-size: cover; }
 .frame-red { background: url(/img/portfolioImages/jQuerySFThumb.png) no-repeat center center; background-size: cover; }
@@ -255,10 +255,11 @@ a.close-overlay.hidden { display: none }
 #effect .img { overflow: hidden }
 #effect .img.hover .overlay { opacity: 1 }
 #effect .img.hover .overlay a.expand { top: 50%; margin-top: -30px; opacity: 1; }
-.discover { background-color: #282f35; padding: 70px 0; text-align: center; }
+.discover { background-color: #282f35; padding: 70px 0; text-align: center; padding-top:0; }
 .shop-btn { border: solid 1px #bbb; padding: 15px 50px; color: #fff; text-transform: uppercase; letter-spacing: 3px; font-weight: 400; }
 .shop-btn:hover, .shop-btn:focus { border: solid 1px #64c29e; }
-.sign-up { text-align: center; }
+.sign-up { text-align: center; 
+padding-top:10px}
 .signup-input { border: solid 1px #d3d7d9; padding: 25px; width: 65%; color: #929292; font-style: italic; letter-spacing: 1px; }
 .submit-btn { background-color: #64c29e; color: #fff; border: solid 1px #64c29e; font-weight: 300; padding: 25px 50px; }
 section.sign_up { padding: 40px 0 110px 0; }
@@ -456,4 +457,28 @@ width: 14px;
     margin-left: -15px;
     margin-right: -15px;
     padding-top:5%;
+}
+
+.breifs {
+    padding: 0px 36px 1px 36px;
+    text-align: justify;
+}
+
+.fire {
+    padding-left:50%;
+    padding-top:7%;
+}
+
+.heroTitle {
+    text-align:center;
+    padding-top:15%;
+    font-family:  cursive;
+}
+
+.themNavBars {
+    padding-top:23px;
+}
+
+.heroChange {
+    margin-top:-29px !important;
 }

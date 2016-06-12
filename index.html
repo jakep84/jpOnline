@@ -27,6 +27,7 @@
 <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 <link rel="manifest" href="/manifest.json">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 <meta name="theme-color" content="#ffffff">
@@ -35,10 +36,10 @@
 	<body>
 		<header>
 			<div class="container">
-				<div class="row padMe">
+				<div class="row ">
 					<div class="responsive-logo"></div>
 					<div class="pullcontainer">
-						<a href="#" id="pull"><i class="fa fa-bars fa-2x"></i></a>
+						<a href="#" id="pull"><i class=" themNavBars fa fa-bars fa-2x"></i></a>
 					</div>
 				</div>
 				<div class="row">
@@ -58,7 +59,7 @@
 				</div>
 			</div>
 		</header>
-		<div class="hero"></div>
+        <div class="hero heroChange"><h1 class="heroTitle" alt="jakewebdev.com">We cannot solve our problems with the same thinking we used when we created them.</h1></div>
 			    <div class="thisThing">
                     <div class="mouse">
                         <div class="wheel">
@@ -74,6 +75,7 @@
 		<div class="container-fluid intro" id="about">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
+				    <i class="fire fa fa-fire fa-2x" aria-hidden="true"></i>
 					<h1 class="chain">The world is your's, shape it or someone else will.</h1>
 					<p class="text-intro">Jake is a freelance developer who excels at project management, working with small teams, as a team leader, or alone. He is a high impact programmer with excellent communication skills, who pays great attention to detail and cares deeply about great UX. He is passionate about technology, problem-solving, and loves learning and teaching.</p>
 				</div>
@@ -84,10 +86,10 @@
 				<div class="col-md-8 section-1" id="work">
 					<div class="logo-1 wp1"></div>
 				</div>
-				<div class="col-md-4 section-text nopadding">
+				<div class="col-md-4 section-text nopadding padME">
 					<div class="wp4">
 						<h2 class="frame">YouStaff</h2>
-						<p>YouStaff was a hackathon project Jake won second place in. This site would connect nurses with hospitals by removing the agency so you can get the assignments you want faster and negotiate for higher wages. He built this site from a wireframe image using pure HTML, CSS, and Bootstrap.</p>
+						<p class="breifs">YouStaff was a hackathon project Jake won second place in. This site would connect nurses with hospitals by removing the agency so you can get the assignments you want faster and negotiate for higher wages. He built this site from a wireframe image using pure HTML, CSS, and Bootstrap.</p>
 						<div class="thin-sep"></div>
 					</div>
 					<div class="small-featured-img seat-red">
@@ -95,11 +97,13 @@
 					</div>
 				</div>
 			</div>
+        </div>
+        <div class="container-fluid">
 			<div class="padMe">
 				<div class="col-md-4 section-text nopadding">
 					<div class="wp5">
-						<h2 class="mech">Alpha</h2>
-						<p>Alpha is an onboarding and aid tool to tutor refugees into regaining independence after they arrive to the US, specifically in terms of transportation and language skills. This app was built during the Refugee Hackathon in Atlanta using html, css, and was his first time diving into the mean stack.</p>
+						<h2 class="mech"></h2>
+						<p class="breifs">Alpha is an onboarding and aid tool to tutor refugees into regaining independence after they arrive to the US, specifically in terms of transportation and language skills. This app was built during the Refugee Hackathon in Atlanta using html, css, and was his first time diving into the mean stack.</p>
 						<div class="thin-sep"></div>
 					</div>
 					<div class="small-featured-img seat-black">
@@ -173,30 +177,36 @@
 					<div class="col-md-4 left nopadding">
 						<div class="left-box-1">
 							<div class="img">
-								<img src="img/usFlagSquare.jpg" alt="Leather Seats">
+								<img src="img/usFlowerSquareSized.jpg" alt="Leather Seats">
+<!--
 								<div class="overlay">
 									<a href="http://google.com/" class="expand">leather seats</a>
 									<a class="close-overlay hidden">x</a>
 								</div>
+-->
 							</div>
 						</div>
 						<div class="left-box-2 box">
 							<div class="img">
 								<img src="img/codeOpenDoorSquare.jpg" alt="Custom Seats">
+<!--
 								<div class="overlay">
 									<a href="#" class="expand">custom seats</a>
 									<a class="close-overlay hidden">x</a>
 								</div>
+-->
 							</div>
 						</div>
 						<div class="clearfix"></div>
 						<div class="left-box-btm box">
 							<div class="img">
 								<img src="img/countryHouseSized.jpg" alt="Limited Edition">
+<!--
 								<div class="overlay">
 									<a href="#" class="expand">limited edition</a>
 									<a class="close-overlay hidden">x</a>
 								</div>
+-->
 							</div>
 						</div>
 					</div>
@@ -204,19 +214,23 @@
 						<div class="mid-box-1 box">
 							<div class="img">
 								<img src="img/capitalDancePortSize.jpg" alt="Shop Bags">
+<!--
 								<div class="overlay">
 									<a href="#" class="expand">shop bags</a>
 									<a class="close-overlay hidden">x</a>
 								</div>
+-->
 							</div>
 						</div>
 						<div class="mid-box-2 box">
 							<div class="img">
 								<img src="img/stackedRocksPortraitSized.jpg" alt="Shop Bikes">
+<!--
 								<div class="overlay">
 									<a href="#" class="expand">shop bikes</a>
 									<a class="close-overlay hidden">x</a>
 								</div>
+-->
 							</div>
 						</div>
 						<div class="clearfix"></div>
@@ -225,43 +239,51 @@
 						<div class="right-box-1 box">
 							<div class="img">
 								<img src="img/cokeSized.jpg" alt="Shop Now">
+<!--
 								<div class="overlay">
 									<a href="#" class="expand">shop now</a>
 									<a class="close-overlay hidden">x</a>
 								</div>
+-->
 							</div>
 						</div>
 						<div class="right-box-2 box">
 							<div class="img">
 								<img src="img/flightLineSquare.jpg" alt="Shop Seats">
+<!--
 								<div class="overlay">
 									<a href="#" class="expand">shop seats</a>
 									<a class="close-overlay hidden">x</a>
 								</div>
+-->
 							</div>
 						</div>
 						<div class="right-box-3 box">
 							<div class="img">
 								<img src="img/mountainRainbowSquare.jpg" alt="Shop Accessories">
+<!--
 								<div class="overlay">
 									<a href="#" class="expand">shop accessories</a>
 									<a class="close-overlay hidden">x</a>
 								</div>
+-->
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+<!--
 		<section class="discover">
 			<div class="container-fluid">
 				<div class="row">
-<!--					<div class="col-md-4 col-md-offset-4">
+					<div class="col-md-4 col-md-offset-4">
 						<a href="#" class="shop-btn">Discover The World</a>
 				        </div>
--->				</div>
+				</div>
 			</div>
 		</section>
+-->
 		<section class="sign_up">
 			<div class="container">
 				<div class="row">
