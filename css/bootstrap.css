@@ -5381,6 +5381,7 @@ button.close {
   content: " ";
   border-right-color: #fff;
   border-left-width: 0;
+  display:hidden;
 }
 .popover.bottom > .arrow {
   top: -11px;
