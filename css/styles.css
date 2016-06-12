@@ -266,7 +266,7 @@ section.sign_up { padding: 40px 0 110px 0; }
 footer { background-color: #f7f7f7; padding: 100px 0; }
 footer p { font-size: 13px; margin: 0; }
 .footer-leftcol p { text-align: left; }
-.footer-rightcol p { text-align: right; font-style: italic; margin-top: 20px; }
+.footer-rightcol p { text-align: right; font-style: italic; margin-top: 3px; }
 .bold-16p { font-size: 15px; font-weight: 600; }
 .footer-midcol { margin-left: auto; margin-right: auto; }
 .footer-midcol ul { text-align: center; padding: 0; }
