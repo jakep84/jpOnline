@@ -205,7 +205,7 @@ p { text-align: center; font-size: 14px; color: #848789; font-weight: 300; word-
 p.text-intro { font-size: 18px; }
 .hero { background: url(../img/kingOhack.jpg) no-repeat top center #f4f5fc; background-size: cover;background-attachment: fixed; height: 685px; }
 nav { height: 85px; margin-top: 30px; position: relative; }
-.logo-holder { background: url(/android-chrome-192x192.png) no-repeat center center; width: 94px; height: 85px; position: absolute; top: 0; left: 327px; }
+.logo-holder { background: url(/mstile-144x144.png) no-repeat center center;  width: 94px; height: 85px; position: absolute; top: 0; left: 327px; }
 .responsive-logo { display: hidden; }
 header { background-color: #DDD; }
 header ul { padding-top: 35px; }
