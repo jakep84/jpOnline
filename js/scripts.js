@@ -6,6 +6,74 @@
     storageBucket: "",
   };
   firebase.initializeApp(config);
+//Add login/ logout
+var jApp = {
+    currentUser: {},
+    username: '',
+    isLoggedIn: function () {
+        jApp.currentUser = auth.currentUser;
+        if (jApp.currentUser !== null) {
+            jApp.username = jApp.currentUser.displayName;
+        }
+        return jApp.currentUser !== null;
+    },
+    login: function () {
+        if (!jApp.isLoggedIn()) {
+
+            //---not allowing me to literaly sign in (even after I log out)
+            auth.signInWithPopup(provider).then(function (result) {
+
+                jApp.currentUser = result.user;
+                jApp.username = jApp.currentUser.displayName;
+                $('#loginInfo').html(jApp.username);
+                $('#loggedIn').show();
+                $('#btnLogin').hide();
+   //             messageClass.getMessages();
+            }).catch(function (error) {
+                // Handle Errors here.
+                var errorCode = error.code;
+                var errorMessage = error.message;
+                // The email of the user's account used.
+                var email = error.email;
+                // The firebase.auth.AuthCredential type that was used.
+                var credential = error.credential;
+                $('#loginInfo').html(error.message);
+            });
+        }
+    },
+    logout: function () {
+        auth.signOut().then(function () {
+            jApp.currentUser = null;
+            jApp.username = '';
+
+            //worry with toggilng show and hide later
+            //            $('#btnLogin').hide();
+            //            $('#btnLogout').show();
+        }).catch( function (error) {
+            $('#loginInfo').html(error.message);
+            // An error happened.
+        })
+    }
+};
+
+
+
+
+
+$(document).ready(function () {
+    if (jApp.isLoggedIn()) {
+        $('p').html(jApp, currentUser.google.displayName);
+        //worry with toggilng show and hide later
+//                $('#btnLogin').show();
+//                $('#btnLogout').show();
+        messageClass.getMessages();
+        //    } else {
+        //        $('#btnLogin').show();
+        //        $('#btnLogout').show();
+    }
+    $('#btnLogin').on('click', jApp.login);
+    $('#btnLogout').on('click', jApp.logout);
+});
 
 
 //FLEXSLIDER
